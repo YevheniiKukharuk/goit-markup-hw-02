@@ -1,0 +1,48 @@
+:root {
+}
+body {
+  background-color: #e5e5e5;
+  color: #212121;
+  font-family: 'Roboto', 'sans-serif';
+}
+ul {
+  list-style: none;
+}
+/*
+.page-header {
+  background-color: #ffffff;
+}
+.page-footer {
+  background-color: #2f303a;
+}
+*/
+
+/*css for index.html*/
+.logo-link {
+  color: #000000;
+}
+.logo-web {
+  color: #2196f3;
+}
+.site-nav .link {
+  color: #000000;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.contacts-nav {
+  color: #757575;
+}
+.contacts-nav:hover,
+.contacts-nav:focus {
+  color: #2196f3;
+}
+
+/*css for portfolio.html*/
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background: #2196f3;
+}

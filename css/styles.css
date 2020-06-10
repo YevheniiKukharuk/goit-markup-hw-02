@@ -1,4 +1,7 @@
 :root {
+  --primery-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
 }
 body {
   background-color: #e5e5e5;
@@ -18,31 +21,85 @@ ul {
 */
 
 /*css for index.html*/
-.logo-link {
+.logo {
   color: #000000;
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav .link {
-  color: #000000;
+  color: var(--primery-text-colo);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
-.contacts-nav {
-  color: #757575;
+.contacts-nav .link {
+  color: var(--title-text-color);
 }
-.contacts-nav:hover,
-.contacts-nav:focus {
-  color: #2196f3;
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+.hero-title {
+  color: #ffffff;
+}
+.section-title {
+  color: var(--primery-text-colo);
 }
 
+.advantages .advantages-title {
+  color: var(--primery-text-colo);
+}
+.advantages-text {
+  color: var(--title-text-color);
+}
+.applications .applications-title {
+  background-color: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+}
+.team-leader {
+  background-color: #ffffff;
+}
+.team-title {
+  color: var(--primery-text-color);
+}
+.proffesion {
+  color: var(--title-text-color);
+}
+.social .social-link:hover,
+.social .social-link:focus {
+  color: var(--accent-color);
+}
+.page-footer {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.page-footer .footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-social .social-link:hover,
+.footer-social .social-link:focus {
+  color: var(--accent-color);
+}
+.developed {
+  color: rgba(255, 255, 255, 0.4);
+}
 /*css for portfolio.html*/
 
-.button:hover,
-.button:focus {
+.page-content .button:hover,
+.page-content .button:focus {
+  background-color: var(--accent-color);
   color: #ffffff;
-  background: #2196f3;
+}
+
+.project-title {
+  color: var(--primery-text-color);
+}
+.project-section {
+  color: var(--title-text-color);
+}
+.project-text {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }

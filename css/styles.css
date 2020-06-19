@@ -46,9 +46,6 @@ a {
 .contacts-nav .link:focus {
   color: var(--accent-color);
 }
-.page-main {
-  background-color: #e5e5e5;
-}
 .hero-button {
   background-color: #2196f3;
   color: #ffffff;
@@ -56,7 +53,10 @@ a {
 .hero-title {
   color: #ffffff;
 }
-.team-stction {
+.team-section .team-leader {
+  background-color: #f5f4fa;
+}
+.team-section .section-title {
   background-color: #f5f4fa;
 }
 .section-title {
@@ -87,6 +87,9 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.team-leader > li {
+  background-color: #ffffff;
+}
 .team-leader {
   background-color: #ffffff;
   font-style: normal;
@@ -106,9 +109,9 @@ a {
 .social .social-link:focus {
   color: var(--accent-color);
 }
-.clients {
+/* .clients {
   background-color: #e5e5e5;
-}
+} */
 .page-footer {
   background-color: #2f303a;
   color: #ffffff;

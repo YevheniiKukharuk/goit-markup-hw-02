@@ -13,6 +13,16 @@ ul {
 a {
   text-decoration: none;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /*css for index.html*/
 .page-header {
   background-color: #ffffff;
@@ -45,6 +55,9 @@ a {
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
   color: var(--accent-color);
+}
+.hero {
+  background-color: #2f303a;
 }
 .hero-button {
   background-color: #2196f3;
